@@ -2,6 +2,7 @@ package css.cis3334.heartratetracker;
 
 import android.app.Activity;
 import android.content.Context;
+import android.graphics.Typeface;
 import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -53,8 +54,12 @@ public class HeartRateAdapter  extends ArrayAdapter<HeartRate> {
 
         //TextView variable used to access text attribute of heart rates.
         TextView tvPulse=(TextView)view.findViewById(R.id.textViewPulse);
+
+        //Set text to appropriate pulse value.
         tvPulse.setText(tvPulse.getText() + hr.getPulse().toString());
 
+        //Set typeface to bold so that it is easier to read against background.
+        tvPulse.setTypeface(null, Typeface.BOLD);
         //Switch statement to determine background color based on heart rate range.
         switch(hr.getRange())
         {

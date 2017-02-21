@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--colors established for all zones-->
+    <color name="colorZone1">#00BFFF</color>
+    <color name="colorZone2">#FFFF00</color>
+    <color name="colorZone3">#FFA500</color>
+    <color name="colorZone4">#FF8C00</color>
+    <color name="colorZone5">#FF0000</color>
+    <color name="colorZone6">#8B0000</color>
+</resources>

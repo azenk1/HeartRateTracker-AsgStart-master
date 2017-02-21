@@ -60,6 +60,7 @@ public class HeartRateAdapter  extends ArrayAdapter<HeartRate> {
 
         //Set typeface to bold so that it is easier to read against background.
         tvPulse.setTypeface(null, Typeface.BOLD);
+
         //Switch statement to determine background color based on heart rate range.
         switch(hr.getRange())
         {
